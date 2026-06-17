@@ -42,7 +42,7 @@ Ticker updateTicker;
 void handleInputEvent(InputHandler::InputType type, bool state);
 void cycleEffectMode();
 void increaseBrightness();
-decreaseBrightness();
+void decreaseBrightness();
 
 void setupWiFi() {
   Serial.begin(115200);
